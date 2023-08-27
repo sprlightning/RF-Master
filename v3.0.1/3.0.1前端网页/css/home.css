@@ -1,0 +1,60 @@
+
+.update-time {
+    font-size: 0.8rem;
+    color: #1282A2;
+}
+
+.form_1{
+    margin: 0 auto;
+    width: 90%
+
+}
+input:checked+.slider:before {
+    -webkit-transform: translateX(52px);
+    -ms-transform: translateX(52px);
+    transform: translateX(52px);
+}
+.content {
+
+    padding: 2cm 1cm 2cm 1cm;
+}
+.card {
+    background-color: white;
+    box-shadow: 2px 2px 12px 1px rgba(140, 140, 140, .5);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #034078
+}
+
+.card-grid {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+
+
+.form_1
+th,
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+.form_1 tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.form_1 tr:hover {
+    background-color: #ddd;
+}
+
+.form_1 th {
+    background-color: #50b8b4;
+    color: white;
+}
