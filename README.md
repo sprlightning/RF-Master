@@ -9,4 +9,4 @@
 
 以上问题都会导致编译失败；解决方法就是将“ESPAsyncWebSrv.h”定义为“ESPAsyncWebServer.h”，另外为缺失string返回值的函数增加返回值，用“return "";”即可；
 
-这体现在3.0.1版本中，bug已修复，其中lib文件夹中的就是[ESPAsyncWebServer](url=https://github.com/sprlightning/ESPAsyncWebServer)库，需要用Arduino手动安装ZIP库的方式加载进去；
+这体现在3.0.1版本中，bug已修复，其中lib文件夹中的就是[ESPAsyncWebServer](https://github.com/sprlightning/ESPAsyncWebServer)库，需要用Arduino手动安装ZIP库的方式加载进去；
