@@ -2,6 +2,12 @@
 
 This lib is designed to include ESPAsyncWebSrv.h
 
+url=https://github.com/sprlightning/ESPAsyncWebServer
+
+architectures=esp8266, esp32
+
+depends=ESPAsyncWebSrv, AsyncTCP, ESPAsyncTCP
+
 Async HTTP and WebSocket Server for ESP8266 Arduino
 
 For ESP8266 it requires [ESPAsyncTCP](https://github.com/dvarrel/ESPAsyncTCP)
